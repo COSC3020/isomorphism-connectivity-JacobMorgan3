@@ -12,16 +12,6 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
 ## Proof By Contradiction
-Graph $G_1$: <br/>
-Has 4 vertices ($V_1, V_2, V_3, V_4$) <br/>
-$G_1$ has these mappings $f(V_1) = N_1, f(V_2) = N_2, f(V_3) = N_3, f(V_4) = N_4$ <br/>
-$G_1$ is one-to-one and onto.
 
-Graph $B_2$: <br/>
-Has 5 vertices ($N_1, N_2, N_3, N_4, N_5$) <br/>
-$G_2$ has these mappings $f(N_1) = V_1, f(N_2) = V_2, f(N_3) = V_3, f(N_3) = V_3$ <br/>
-$G_2$ is one-to-one but not onto. In other words it is not isomorphic to $G_1$ <br/>
-
-<br/>
-
-$G_1$ is isomorphic to $G_2$ but $G_2$ is not isomorphic to $G_1$. There is one connection missing from $G_2$ to $G_1$, making them not completely connected.
+I recieved help from the lab TA. <br/>
+For two graphs to be completely connected every node has an edge to every other node. To be isomorphic the mapping of one graphs nodes to the others nodes must be one-to-one and unto. So for A to be isomorphic to B it's mappings must be one-to-one and onto. To be one-to-one A's nodes map to distinct nodes of B. To be unto A's nodes must map 
