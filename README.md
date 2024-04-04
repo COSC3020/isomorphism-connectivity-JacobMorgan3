@@ -14,4 +14,8 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 ## Proof By Contradiction
 
 I recieved help from the lab TA. <br/>
-For two graphs to be completely connected every node has an edge to every other node. To be isomorphic the mapping of one graphs nodes to the others nodes must be one-to-one and unto. So for A to be isomorphic to B it's mappings must be one-to-one and onto. To be one-to-one A's nodes map to distinct nodes of B. To be unto A's nodes must map 
+For a graph to be completely connected every node has an edge to every other node. To be isomorphic the mapping of one graphs nodes to the others nodes must be one-to-one and unto. So for A to be isomorphic to B it's mappings must be one-to-one and onto. To be one-to-one, A's nodes map to distinct nodes of B. And to be onto, A's nodes must have a map to every node in B. <br/>
+<br/>
+A has 4 nodes: $V_1, V_2, V_3, V_4$ and B has 4 nodes: $N_1, N_2, N_3, N_4. in both graphs each node is connected to two other nodes, forming a square (just the perimeter). The mappings are: $f(V_1) = N_1, f(V_2) = N_2, f(V_3) = N_3, f(V_4) = N_4$. Niether of the graphs are completely connected (there are 4 nodes, each node only connects to two other), and the mappings are one-to-one (each node in A maps to a distinct/ different node in B) and onto (one of A's nodes map to every node in B). This is an example of two graphs that are isomorphic but not completely connected.
+
+
